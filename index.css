@@ -1,0 +1,50 @@
+/* banner sec */
+.sec1{
+    /* background-image:url(img/banner.jpg); */
+    background-color:rgb(223, 22, 143);
+   position: sticky;
+
+}
+/* .sticky{
+    position: static;
+  border: 3px solid #aa1599;
+} */
+.sec2{
+/* background-color: whitesmoke; */
+background-image: url(bannnnn.jpg);
+background-repeat: no-repeat;
+/* background-position: fixed; */
+background-size: cover;
+/* background-attachment: fixed; */
+min-height: 400px;
+width: 100% auto;
+}
+.text{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    /* padding-top: 200px; */
+    margin: auto;
+}
+.line-1{
+    width: 400px;
+    margin: auto;
+    height: 5px;
+    background-color:rgba(179, 18, 185, 0.763);
+}
+/* .line{
+    background-color: rgb(255, 255, 255);
+    height:1px;
+    width: 700px;
+    margin-top: 10px;
+} */
+.brand-name{
+    font-size: 25px; font-family:Semi Expanded Italic Bold; padding-top: 8px; font-weight: bold; color: white;
+}
+
+
+
+@media (max-width:460px){
+.brand-name{font-size:15px;}
+}
